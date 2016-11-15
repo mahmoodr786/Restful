@@ -1,0 +1,16 @@
+[
+	{
+		"name": "Restful",
+		"folder_name": "Restful",
+		"author": "Mahmood Rahimi",
+		"author_url": "https://icingcms.org/",
+		"description": "Restful plugin truns your Icingcms to API.",
+		"image": "https://icingcms.org/icing_blue/img/icingcms.png",
+		"url": "https://icingcms.org/plugins/Restful.zip",
+		"created": "11/15/2016",
+		"version": "1.0.0",
+		"compatible": true,
+		"cakeversion": "3.0~"
+
+	}
+]

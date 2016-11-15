@@ -1,0 +1,24 @@
+{
+    "name": "your-name-here/Restful",
+    "description": "Restful plugin for CakePHP",
+    "type": "cakephp-plugin",
+    "require": {
+        "php": ">=5.5.9",
+        "admad/cakephp-jwt-auth": "^2.0",
+        "friendsofcake/crud": "~4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Restful\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Restful\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    }
+}
